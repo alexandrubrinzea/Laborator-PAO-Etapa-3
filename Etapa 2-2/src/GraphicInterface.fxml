@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="943.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="MyController">
+   <children>
+      <Text layoutX="266.0" layoutY="72.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Print all the" textAlignment="CENTER" wrappingWidth="410.8828125">
+         <font>
+            <Font name="Consolas" size="50.0" />
+         </font>
+      </Text>
+      <Button fx:id="concertsButton" layoutX="22.0" layoutY="456.0" mnemonicParsing="false" onAction="#onClick" prefHeight="66.0" prefWidth="177.0" text="Concerts" />
+      <Button layoutX="263.0" layoutY="457.0" mnemonicParsing="false" prefHeight="66.0" prefWidth="177.0" text="Art galleries" />
+      <Button layoutX="503.0" layoutY="456.0" mnemonicParsing="false" prefHeight="66.0" prefWidth="177.0" text="IMAX movies" />
+      <Button layoutX="746.0" layoutY="456.0" mnemonicParsing="false" prefHeight="66.0" prefWidth="177.0" text="Theatre plays" />
+      <TextArea fx:id="textArea" layoutX="22.0" layoutY="100.0" prefHeight="293.0" prefWidth="900.0" />
+   </children>
+</Pane>
